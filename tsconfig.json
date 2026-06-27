@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"]
     }
   },
   "include": [
@@ -31,4 +32,5 @@
     "**/*.mts"
   ],
   "exclude": ["node_modules"]
+  
 }
