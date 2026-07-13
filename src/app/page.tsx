@@ -5,7 +5,6 @@ import { useState } from "react";
 import { TextBox } from "@/components";
 export default function Home() {
   const [textValue, setTextValue] = useState("");
-
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 px-6 py-12 font-sans">
       <main className="flex w-full max-w-2xl flex-col items-center gap-8 rounded-3xl bg-white p-8 shadow-sm ring-1 ring-zinc-200">
